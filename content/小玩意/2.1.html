@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顾客ID与箱号查询</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        input, button {
+            margin: 10px 0;
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .history {
+            margin-top: 20px;
+        }
+        .history-item {
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .delete-btn {
+            margin-left: 10px;
+            cursor: pointer;
+            color: red;
+        }
+        @media (min-width: 600px) {
+            input, button {
+                width: auto;
+                display: inline-block;
+            }
+            button {
+                margin-left: 10px;
+            }
+        }
+        @media (min-width: 800px) {
+            .history-item {
+                justify-content: flex-start;
+            }
+            .delete-btn {
+                margin-left: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>顾客ID与箱号查询1</h1>
+<input type="text" id="customerId" placeholder="输入顾客ID后四位" />
+<button onclick="findBoxNumber()">查询箱号</button>
+<br>
+<h3 id="result"></h3>
+<div class="history">
+    <h3>最近查询</h3>
+    <button onclick="deleteAllHistory()">删除所有记录</button>
+    <div id="historyList"></div>
+</div>
+
+<script>
+    let data = {};
+    let history = [];
+
+    function readJsonFile() {
+        console.log('开始读取JSON文件...');
+        fetch('data.json')
+            .then(res => {
+                console.log('收到响应:', res);
+                if (!res.ok) {
+                    throw new Error('网络响应错误');
+                }
+                return res.json();
+            })
+            .then(json => {
+                console.log('解析的JSON数据:', json);
+                json.forEach(row => {
+                    const customerId = row.顾客ID ? row.顾客ID.toString() : '';
+                    const boxNumber = row.箱号;
+                    if (customerId && boxNumber) {
+                        const lastFourDigits = customerId.slice(-4);
+                        data[lastFourDigits] = boxNumber;
+                        console.log(`添加数据: ${lastFourDigits} -> ${boxNumber}`);
+                    }
+                });
+                console.log('数据加载完成:', data);
+            })
+            .catch(error => console.error('读取JSON文件时出错:', error));
+    }
+
+    function findBoxNumber() {
+        const inputId = document.getElementById('customerId').value.trim();
+        console.log('输入的顾客ID后四位:', inputId);
+        const boxNumber = data[inputId];
+        const result = boxNumber ? `箱号: ${boxNumber}` : '未找到对应的箱号';
+        console.log(`查询结果: ${result}`);
+        document.getElementById('result').innerText = result;
+
+        document.getElementById('customerId').value = '';
+
+        if (inputId) {
+            if (history.length === 10) {
+                history.shift();
+            }
+            history.push({ id: inputId, box: result });
+            updateHistoryList();
+        }
+    }
+
+    function updateHistoryList() {
+        const historyList = document.getElementById('historyList');
+        historyList.innerHTML = '';
+        history.forEach((item, index) => {
+            const div = document.createElement('div');
+            div.className = 'history-item';
+            div.innerHTML = `${index + 1}. 顾客ID: ${item.id}, ${item.box} <span class="delete-btn" onclick="deleteHistoryItem(${index})">删除</span>`;
+            historyList.appendChild(div);
+        });
+    }
+
+    function deleteHistoryItem(index) {
+        history.splice(index, 1);
+        updateHistoryList();
+    }
+
+    function deleteAllHistory() {
+        history = [];
+        updateHistoryList();
+    }
+
+    readJsonFile();
+
+    document.getElementById('customerId').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            findBoxNumber();
+        }
+    });
+</script>
+
+</body>
+</html>
