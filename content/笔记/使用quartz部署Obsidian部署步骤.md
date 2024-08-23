@@ -9,15 +9,12 @@ npx quartz sync
 [项目地址](https://github.com/jackyzha0/quartz)
 [项目说明文档](https://quartz.jzhao.xyz/)，里面有部署教程，比较丰富。
 
-[如何使用 Quartz 4.0 和 GitHub Pages 免费发布 Obsidian 笔记 (insile.github.io)](https://insile.github.io/my-notes/%E7%AC%94%E8%AE%B0/%E5%85%AC%E5%85%B1%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-Quartz-4.0-%E5%92%8C-GitHub-Pages-%E5%85%8D%E8%B4%B9%E5%8F%91%E5%B8%83-Obsidian-%E7%AC%94%E8%AE%B0#:~:text=%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85%20Quartz%20%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%20git%20clone%20github.com%2Fjackyzha0%2Fquartz.git%20%23%20%E4%B8%8B%E8%BD%BD,relative%20paths%20%23%20Obsidian%20%E8%B7%AF%E5%BE%84%E8%AE%BE%E7%BD%AE%20You%27re%20all%20set%21),按他教程我没有看见index，最后结果点击主页就出现xml提示，我就按他的方法直接克隆他的库了（[insile/我的笔记 (github.com)](https://github.com/insile/my-notes)），结果一切正常，还不错。（其实也可以自己新建一个ibdex上去）
-
-
 - NodeJS  v20+ （使用 node -v 检查您的版本）[Node.js — 下载 Node.js® (nodejs.org)](https://nodejs.org/zh-cn/download/prebuilt-installer)
 - NPM v9.3.1+（使用 npm -v 检查您的版本）（安装node后自带npm）
 - Git（使用 git --version 检查您的版本）[CNPM Binaries Mirror (npmmirror.com)](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
 - Obsidian
 
-ps:`@jackyzha0/quartz@4.3.0` 要求 `npm` 版本至少为 `9.3.1`，并且 `node` 版本为 `20` 或 `>=22`
+ps:`@jackyzha0/quartz@4.3.0` 要求 `npm` 版本至少为 `9.3.1`，并且 `node` 版本为 `20` 或 `>=22`。建议直接22版本走起。
 ##### 步骤 1. 下载并安装 Quartz
 
 - 打开终端并运行以下命令（自己创建一个文件夹，在文件夹上右键打开git指令页面）
