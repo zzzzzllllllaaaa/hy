@@ -71,6 +71,8 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.HardLineBreaks(), // 添加这一行启用硬换行插件
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter" ,"git", "filesystem"] }),//添加创建修改日期插件
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

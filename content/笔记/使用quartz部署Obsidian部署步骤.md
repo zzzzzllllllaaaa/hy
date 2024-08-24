@@ -1,7 +1,6 @@
 [[数字花园]]
 
-自定义域名需要修改quartz.config.ts里面的baseUrl
-页脚在：quartz\quartz.layout.ts里面。[[一些布局修改]]
+
 ```
 npx quartz sync
 ````
