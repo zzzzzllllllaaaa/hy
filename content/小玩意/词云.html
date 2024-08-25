@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>词云生成器</title>
+    <style>
+        #wordcloud {
+            width: 100%;
+            height: 100vh; /* 使词云容器填满整个视口高度 */
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>词云生成器</h1>
+    <textarea id="inputWords" rows="10" cols="50" placeholder="请输入词句，每行一个"></textarea>
+    <br>
+    <input type="file" id="fileInput" accept=".xlsx,.xls">
+    <br>
+    <button onclick="generateWordCloud()">生成词云</button>
+    <div id="wordcloud"></div>
+    <a id="downloadLink" style="display: none;">下载词云</a>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1/build/d3.layout.cloud.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script>
+        let currentWords = [];
+
+        function generateWordCloud() {
+            const inputWords = document.getElementById('inputWords').value;
+            const wordsArray = inputWords.split('\n').filter(word => word.trim() !== '');
+
+            const fileInput = document.getElementById('fileInput');
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, {type: 'array'});
+                    const firstSheetName = workbook.SheetNames[0];
+                    const worksheet = workbook.Sheets[firstSheetName];
+                    const excelData = XLSX.utils.sheet_to_json(worksheet, {header: 1});
+                    const excelWords = excelData.flat().filter(word => word.trim() !== '');
+                    currentWords = [...wordsArray, ...excelWords];
+                    generateCloud(currentWords);
+                };
+                reader.readAsArrayBuffer(file);
+            } else {
+                currentWords = wordsArray;
+                generateCloud(currentWords);
+            }
+        }
+
+        function generateCloud(wordsArray) {
+            const colors = ["#333", "#666", "#999", "#0066CC", "#009933", "#CC6600"]; // 定义颜色数组
+
+            const maxFontSize = 100; // 最大字体大小
+            const minFontSize = 20; // 最小字体大小，避免字体过小
+            const fontSizeScale = d3.scaleLinear()
+                .domain([0, wordsArray.length])
+                .range([maxFontSize, minFontSize]);
+
+            const layout = d3.layout.cloud()
+                .size([window.innerWidth, window.innerHeight])
+                .words(wordsArray.map(word => ({text: word, size: fontSizeScale(Math.random() * wordsArray.length)})))
+                .padding(5)
+                .rotate(() => 0) // 确保文字不旋转
+                .font("SimHei") // 使用适合中文的字体
+                .fontSize(d => d.size)
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select("#wordcloud").selectAll("*").remove();
+                const svg = d3.select("#wordcloud")
+                    .append("svg")
+                    .attr("width", layout.size()[0])
+                    .attr("height", layout.size()[1])
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", d => d.size + "px")
+                    .style("font-family", "SimHei") // 使用适合中文的字体
+                    .style("fill", () => colors[Math.floor(Math.random() * colors.length)]) // 随机选择颜色
+                    .attr("text-anchor", "middle")
+                    .attr("transform", d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")")
+                    .text(d => d.text);
+
+                // 确保词云容器大小与生成的SVG大小一致
+                document.getElementById('wordcloud').style.width = layout.size()[0] + 'px';
+                document.getElementById('wordcloud').style.height = layout.size()[1] + 'px';
+
+                html2canvas(document.getElementById('wordcloud'), { scale: 2 }).then(canvas => {
+                    const url = canvas.toDataURL("image/png");
+                    document.getElementById('downloadLink').href = url;
+                    document.getElementById('downloadLink').download = "wordcloud.png";
+                    document.getElementById('downloadLink').style.display = 'block';
+                });
+            }
+        }
+
+        window.addEventListener('resize', () => generateCloud(currentWords));
+    </script>
+</body>
+</html>
