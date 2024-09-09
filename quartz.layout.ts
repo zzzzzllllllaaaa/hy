@@ -3,18 +3,7 @@ import * as Component from "./quartz/components"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
-  head: [
-    Component.Head(),
-    // 在这里插入统计代码
-    {
-      type: 'script',
-      props: {
-        defer: true,
-        src: "https://cloud.umami.is/script.js",
-        'data-website-id': "37169e7c-0e26-4c26-ac84-376a80a6416a"
-      }
-    }
-  ],
+  head: Component.Head(),
   header: [],
   afterBody: [
     Component.Comments({
