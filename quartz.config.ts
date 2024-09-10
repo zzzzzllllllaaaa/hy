@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: 'umami', host: 'https://cloud.umami.is/script.js', websiteId: '37169e7c-0e26-4c26-ac84-376a80a6416a' ,
     },
     locale: "zh-CN",
-    baseUrl: "www.zhzhzh.fun",
+    baseUrl: "https://www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -55,9 +55,6 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
-      }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
