@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics:{ 
       provider: 'cabin', 
-      host: 'https://scripts.withcabin.com/hello.js' 
+      host: 'https://www.zhzhzh.fun' 
     },
     locale: "zh-CN",
     baseUrl: "https://www.zhzhzh.fun",
