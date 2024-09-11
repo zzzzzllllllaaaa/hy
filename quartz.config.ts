@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "3zh2",
     enableSPA: true,
     enablePopovers: true,
-    analytics:{ provider: 'umami', host: 'https://cloud.umami.is/script.js', websiteId: '37169e7c-0e26-4c26-ac84-376a80a6416a' },
+    analytics:{ provider: 'plausible' },
     locale: "zh-CN",
     baseUrl: "www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
