@@ -11,7 +11,7 @@ title: 主页面
 - [主页面 (zhzhzh.fun)](https://www.zhzhzh.fun/)
 
 
-[哔哩哔哩 嵌入代码转换器 (zhzhzh.cloudns.ch)](https://a.zhzhzh.cloudns.ch/b%E7%AB%99%E5%B5%8C%E5%85%A5%E4%BB%A3%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%99%A8.html)，这是我发现b站嵌入代码不能直接用搞的，它可以把复制的嵌入代码转换为禁止自动播放、超清播放和自适应页面大小的嵌入代码。
+[哔哩哔哩 嵌入代码转换器 (zhzhzh.cloudns.ch)](https://a.zhzhzh.cloudns.ch/b%E7%AB%99%E5%B5%8C%E5%85%A5%E4%BB%A3%E7%A0%81%E8%BD%AC%E6%8D%A2%E5%99%A8.html)，这是我发现b站嵌入代码不能直接用搞的，它可以把复制的嵌入代码转换为禁止自动播放、超清播放和自适应页面大小的嵌入代码。。
 
 ### 花园结构
 
@@ -21,3 +21,5 @@ title: 主页面
 
 ### 反馈
 如果发现本站有什么不合适的内容，比方说违反什么什么法规啥的，或者是泄露了关于我个人的一些隐私信息，亦或者有什么对于本站我可以做到的好的建议，欢迎[反馈](https://flowus.cn/form/e8167efc-bbec-4a20-88c8-653573e5139e)。
+
+.........
