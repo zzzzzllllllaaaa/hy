@@ -40,6 +40,8 @@ npx quartz create
 如果`npx quartz create`出错了，就尝试在 PowerShell 中运行 `npx quartz create` 命令，Win + X。
 
 `npx quartz create` 创建项目时，可先选择 `Empty Quartz`，后期再添加要发布的笔记。运行 `npx quartz build --serve`，发布网站，通过 [http://localhost:8080/](http://localhost:8080/) 访问预览，可以自己修修改改。
+
+npx quartz build
 ##### 步骤 2. 设置 GitHub 存储库
 
 - 在 GitHub.com 上创建一个新存储库。不要使用 README 、许可证或 gitignore 文件初始化新存储库。（就是创建一个空白库）
