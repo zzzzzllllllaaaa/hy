@@ -11,10 +11,9 @@ const config: QuartzConfig = {
     pageTitle: "3zh2",
     enableSPA: true,
     enablePopovers: true,
-    analytics: { provider: 'plausible' ,},
-    },
+    analytics:{ provider: 'umami', host: 'cloud.umami.is/script.js', websiteId: '37169e7c-0e26-4c26-ac84-376a80a6416a' },
     locale: "zh-CN",
-    baseUrl: "https://www.zhzhzh.fun",
+    baseUrl: "www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -54,6 +53,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.CreatedModifiedDate({
+        priority: ["frontmatter", "filesystem"],
+      }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -68,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HardLineBreaks(), // 添加这一行启用硬换行插件
-      Plugin.CreatedModifiedDate({ priority: ["frontmatter" ,"git", "filesystem"] }),//添加创建修改日期插件
+
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
