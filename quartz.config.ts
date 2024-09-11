@@ -12,9 +12,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics:{ 
-      provider: 'google', 
-      tagId: 'GTM-5VFZLS6H'
-     },
+      provider: 'cabin', 
+      host: 'https://scripts.withcabin.com/hello.js' 
+    },
     locale: "zh-CN",
     baseUrl: "https://www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
