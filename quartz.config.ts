@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics:{ provider: 'plausible' },
     locale: "zh-CN",
-    baseUrl: "www.zhzhzh.fun",
+    baseUrl: "zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
