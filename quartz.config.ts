@@ -11,10 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "3zh2",
     enableSPA: true,
     enablePopovers: true,
-    analytics:{ 
-      provider: 'cabin', 
-      host: 'https://www.zhzhzh.fun' 
-    },
+    analytics:{ provider: 'cabin', },
     locale: "zh-CN",
     baseUrl: "https://www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
