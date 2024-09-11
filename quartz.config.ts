@@ -11,7 +11,14 @@ const config: QuartzConfig = {
     pageTitle: "3zh2",
     enableSPA: true,
     enablePopovers: true,
-    analytics:{ provider: 'cabin', },
+    analytics: {
+      provider: 'custom',
+      customScript: {
+        src: "https://scripts.withcabin.com/hello.js",
+        async: true,
+        defer: true,
+      },
+    },
     locale: "zh-CN",
     baseUrl: "https://www.zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
