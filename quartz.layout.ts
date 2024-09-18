@@ -34,9 +34,9 @@ export const sharedPageComponents: SharedLayout = {
         icon: "https://pic.imgdb.cn/item/66ea452af21886ccc027e024.png" // 替换为外部图标链接
       },
       {
-        label: "先空着",
-        url: "",
-        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+        label: "网络违法犯罪举报网站",
+        url: "https://cyberpolice.mps.gov.cn/#/",
+        icon: "https://pic.imgdb.cn/item/66ea452af21886ccc027e024.png" // 替换为外部图标链接
       },
     ]
   }),
