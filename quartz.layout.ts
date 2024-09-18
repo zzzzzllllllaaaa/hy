@@ -1,5 +1,6 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
-import * as Component from "./quartz/components"
+import { PageLayout, SharedLayout } from "./quartz/cfg";
+import * as Component from "./quartz/components";
+import Footer from "./quartz/components/Footer";
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -20,11 +21,24 @@ export const sharedPageComponents: SharedLayout = {
       }
     }),
   ],
-  footer: Component.Footer({
-    links: {
-      赣ICP备2024041153号: "https://beian.miit.gov.cn/",
-      "先空着": "","先空着2": "",
-    },
+  footer: Footer({
+    links: [
+      {
+        label: "赣ICP备2024041153号",
+        url: "https://beian.miit.gov.cn/",
+        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+      },
+      {
+        label: "先空着",
+        url: "",
+        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+      },
+      {
+        label: "先空着2",
+        url: "",
+        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+      },
+    ]
   }),
 }
 

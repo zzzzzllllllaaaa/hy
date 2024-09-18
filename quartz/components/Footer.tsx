@@ -3,8 +3,14 @@ import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
 
+interface FooterLink {
+  label: string
+  url: string
+  icon?: string
+}
+
 interface Options {
-  links: Record<string, string>
+  links: FooterLink[]
 }
 
 export default ((opts?: Options) => {
@@ -18,9 +24,12 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
+          {links.map((link, index) => (
+            <li key={index}>
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                {link.icon && <img src={link.icon} alt={`${link.label} icon`} style={{ marginRight: '8px', width: '16px', height: '16px' }} />}
+                {link.label}
+              </a>
             </li>
           ))}
         </ul>

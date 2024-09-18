@@ -2,6 +2,9 @@
 
 这个用python实现，我都忘记我啥时候装的了。
 
+ps:2024-09-13：现在好像用不了了，只能抓一小部分，不知道要怎么改。^-^后面有空看看https://github.com/Ghauster/BilibiliCommentScraper
+
+
 ### 需求
 
 1. 输入视频bv码抓取评论内容
