@@ -1,23 +1,24 @@
 /* quartz/components/styles/footer.scss */
 
 footer {
-  ul {
+  ul.footer-links {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
-  li {
-    margin: 8px 0;
+  ul.footer-links li {
+    display: inline;
+    margin-right: 16px; /* 间隔 */
   }
-  a {
+  ul.footer-links a {
     text-decoration: none;
     color: inherit;
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
-  a img {
+  ul.footer-links a img {
     margin-right: 8px;
     width: 16px;
     height: 16px;
-    vertical-align: middle;
   }
 }

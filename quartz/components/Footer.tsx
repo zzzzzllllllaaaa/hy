@@ -23,11 +23,11 @@ export default ((opts?: Options) => {
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
-        <ul>
+        <ul class="footer-links">
           {links.map((link, index) => (
-            <li key={index}>
-              <a href={link.url} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
-                {link.icon && <img src={link.icon} alt={`${link.label} icon`} style={{ marginRight: '8px', width: '16px', height: '16px', verticalAlign: 'middle' }} />}
+            <li key={index} style={{ display: 'inline', marginRight: '16px' }}>
+              <a href={link.url} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center' }}>
+                {link.icon && <img src={link.icon} alt={`${link.label} icon`} style={{ marginRight: '8px', width: '16px', height: '16px' }} />}
                 {link.label}
               </a>
             </li>
