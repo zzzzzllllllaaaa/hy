@@ -26,15 +26,15 @@ export const sharedPageComponents: SharedLayout = {
       {
         label: "赣ICP备2024041153号",
         url: "https://beian.miit.gov.cn/",
-        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+        icon: "https://pic.imgdb.cn/item/66ea4461f21886ccc02590f6.png" // 替换为外部图标链接
+      },
+      {
+        label: "赣公网安备36078102000165号",
+        url: "https://beian.mps.gov.cn/#/query/webSearch",
+        icon: "https://pic.imgdb.cn/item/66ea452af21886ccc027e024.png" // 替换为外部图标链接
       },
       {
         label: "先空着",
-        url: "",
-        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
-      },
-      {
-        label: "先空着2",
         url: "",
         icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
       },
