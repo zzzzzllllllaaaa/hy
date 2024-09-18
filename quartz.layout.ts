@@ -31,12 +31,12 @@ export const sharedPageComponents: SharedLayout = {
       {
         label: "先空着",
         url: "",
-        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+        icon: "https://example.com/path/to/icon2.png" // 替换为外部图标链接
       },
       {
         label: "先空着2",
         url: "",
-        icon: "https://pic.imgdb.cn/item/66ea40c3f21886ccc01d5828.png" // 替换为外部图标链接
+        icon: "https://example.com/path/to/icon3.png" // 替换为外部图标链接
       },
     ]
   }),

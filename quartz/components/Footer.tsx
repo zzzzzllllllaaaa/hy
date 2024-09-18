@@ -26,8 +26,8 @@ export default ((opts?: Options) => {
         <ul>
           {links.map((link, index) => (
             <li key={index}>
-              <a href={link.url} target="_blank" rel="noopener noreferrer">
-                {link.icon && <img src={link.icon} alt={`${link.label} icon`} style={{ marginRight: '8px', width: '16px', height: '16px' }} />}
+              <a href={link.url} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
+                {link.icon && <img src={link.icon} alt={`${link.label} icon`} style={{ marginRight: '8px', width: '16px', height: '16px', verticalAlign: 'middle' }} />}
                 {link.label}
               </a>
             </li>
