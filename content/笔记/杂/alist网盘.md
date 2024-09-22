@@ -1,4 +1,4 @@
-[[网盘]]，[[index|主页面]]
+[[网盘]]
 
 
 [文档](https://alist.nn.ci/zh/guide/drivers/common.html)

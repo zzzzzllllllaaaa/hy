@@ -1,4 +1,3 @@
-[[3zh2冲浪导航]]
 
 [b站官网](https://www.bilibili.com/)
 
