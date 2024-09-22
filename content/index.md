@@ -3,7 +3,7 @@ title: 主页面
 ---
 [[数字花园]]
 
-<video controls style="max-width: 100%; height: auto;"><source src="https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/%E8%A7%86%E9%A2%91/mmexport1726928702657.mp4?sign=Pc9yNruBO2gGNN-jMkVBz0oZBIg5vj7-IFpk22KutSc=:0" type="video/mp4">您的浏览器不支持视频标签。</video>
+<video controls style="max-width: 100%; height: 50%;"><source src="https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/%E8%A7%86%E9%A2%91/mmexport1726928702657.mp4?sign=Pc9yNruBO2gGNN-jMkVBz0oZBIg5vj7-IFpk22KutSc=:0" type="video/mp4"></video>
 
 
 这是一个基于quartz+github搭建的数字花园！！！！访问地址如下：
