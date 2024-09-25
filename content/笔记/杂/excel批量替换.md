@@ -1,7 +1,6 @@
 [[excel]]
 
-在Excel中批量替换整个工作簿中的内容，你可以使用“查找和替换”功能，并应用到所有工作表。以下是详细步骤：
-
+## 单值替换
 1. 打开Excel工作簿。
 2. 按下 `Ctrl + H` 打开“查找和替换”对话框。
 3. 在“查找内容”框中输入你想要查找的内容。
@@ -10,4 +9,60 @@
 6. 在“在”选项框中，通常会有“工作表”和“工作簿”两个选项。选择“工作簿”，这样操作会应用到整个Excel文件的所有工作表。
 7. 点击“全部替换”按钮。
 
-这样，Excel会搜索整个工作簿中的所有工作表，将所有匹配的内容替换为你指定的新内容。请注意，在执行“全部替换”之前，最好先做好工作簿的备份，以防替换错误导致数据丢失。
+## 多值替换
+这个宏将允许你选择一个要替换的区域，然后选择一个包含替换规则的区域（两列：一列为要替换的值，另一列为替换后的值）。
+
+
+```vba
+Sub 批量替换()
+    Dim replaceRange As Range
+    Dim targetRange As Range
+    Dim cell As Range
+    Dim replaceDict As Object
+    Set replaceDict = CreateObject("Scripting.Dictionary")
+    
+    ' 选择要替换的区域
+    On Error Resume Next
+    Set targetRange = Application.InputBox("选择要替换的区域", Type:=8)
+    On Error GoTo 0
+
+    If targetRange Is Nothing Then
+        MsgBox "没有选择要替换的区域。"
+        Exit Sub
+    End If
+    
+    ' 选择替换规则区域
+    On Error Resume Next
+    Set replaceRange = Application.InputBox("选择包含替换规则的区域（两列）", Type:=8)
+    On Error GoTo 0
+
+    If replaceRange Is Nothing Then
+        MsgBox "没有选择替换规则的区域。"
+        Exit Sub
+    End If
+
+    ' 检查替换规则区域是否有两列
+    If replaceRange.Columns.Count <> 2 Then
+        MsgBox "替换规则区域必须有两列。"
+        Exit Sub
+    End If
+    
+    ' 将替换规则添加到字典中
+    For Each cell In replaceRange.Columns(1).Cells
+        If Not IsEmpty(cell.Value) Then
+            replaceDict(cell.Value) = cell.Offset(0, 1).Value
+        End If
+    Next cell
+    
+    ' 开始替换
+    For Each cell In targetRange
+        If replaceDict.exists(cell.Value) Then
+            cell.Value = replaceDict(cell.Value)
+        End If
+    Next cell
+
+    MsgBox "替换完成。"
+End Sub
+```
+
+
