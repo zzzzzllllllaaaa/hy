@@ -20,6 +20,23 @@
             padding: 10px;
             box-sizing: border-box;
         }
+        .autocomplete-suggestions {
+            border: 1px solid #ccc;
+            border-top: none;
+            max-height: 150px;
+            overflow-y: auto;
+            position: absolute;
+            z-index: 9999;
+            background: white;
+            width: calc(100% - 22px);
+        }
+        .autocomplete-suggestion {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .autocomplete-suggestion:hover {
+            background-color: #e0e0e0;
+        }
         .history {
             margin-top: 20px;
         }
@@ -57,6 +74,7 @@
 
 <h1>编码名称查询</h1>
 <input type="text" id="codeInput" placeholder="输入12位编码" maxlength="12" />
+<div id="autocomplete-list" class="autocomplete-suggestions"></div>
 <button onclick="findName()">查询名称</button>
 <br>
 <h3 id="result"></h3>
@@ -97,6 +115,7 @@
 
         // 清空输入框内容
         document.getElementById('codeInput').value = '';
+        clearAutocomplete();
 
         // 更新查询历史
         if (inputCode) {
@@ -129,6 +148,35 @@
         updateHistoryList();
     }
 
+    function autocomplete(input, array) {
+        input.addEventListener('input', function() {
+            const value = this.value;
+            clearAutocomplete();
+            if (!value) return false;
+
+            const autocompleteDiv = document.getElementById('autocomplete-list');
+            Object.keys(array).forEach(key => {
+                if (key.includes(value)) {
+                    const itemDiv = document.createElement('div');
+                    itemDiv.classList.add('autocomplete-suggestion');
+                    itemDiv.innerText = key;
+                    itemDiv.addEventListener('click', function() {
+                        input.value = key;
+                        clearAutocomplete();
+                    });
+                    autocompleteDiv.appendChild(itemDiv);
+                }
+            });
+        });
+    }
+
+    function clearAutocomplete() {
+        const autocompleteDiv = document.getElementById('autocomplete-list');
+        while (autocompleteDiv.firstChild) {
+            autocompleteDiv.removeChild(autocompleteDiv.firstChild);
+        }
+    }
+
     // 读取Excel文件
     readExcelFile();
 
@@ -138,6 +186,9 @@
             findName();
         }
     });
+
+    // 初始化自动补全功能
+    autocomplete(document.getElementById('codeInput'), data);
 </script>
 
 </body>
