@@ -11,7 +11,11 @@ const config: QuartzConfig = {
     pageTitle: "3zh2",
     enableSPA: true,
     enablePopovers: true,
-    analytics:{ provider: 'plausible' },
+    analytics: {
+      provider: 'umami',
+      websiteId: '37169e7c-0e26-4c26-ac84-376a80a6416a',
+      host: 'https://cloud.umami.is',  // 可选，如果您的 Umami 实例托管在自定义域上
+    },
     locale: "zh-CN",
     baseUrl: "zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
