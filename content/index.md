@@ -3,12 +3,11 @@ title: 主页面
 ---
 [[数字花园]]
 
-<video controls style="max-width: 100%; height: auto;"><source src="https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/%E8%A7%86%E9%A2%91/mmexport1726928702657.mp4?sign=Pc9yNruBO2gGNN-jMkVBz0oZBIg5vj7-IFpk22KutSc=:0" type="video/mp4">您的浏览器不支持视频标签。</video>
 
+本站访问地址：
 
-这是一个基于quartz+github搭建的数字花园！！！访问地址如下：
-
-- [主页面 (zhzhzh.fun)](https://www.zhzhzh.fun/)
+- [地址1](https://www.zhzhzh.fun/)
+- [地址2](https://zhzhzh.fun/)
 
 ### 花园结构
 
@@ -18,6 +17,11 @@ title: 主页面
 
 #### 图床
 网站图床用的是[[alist网盘]]+[[123云盘（2t空间）]]，大视频就直接用[[bilibili(B站)]]了。
+
+### ps
+开始是把日记也发在这网站上面的，可惜，写累了，感觉写日记也真是浪费时间。我确实是没想好这个网站能用来干嘛，或许后面我会把关于我的一起内容都去除掉，慢慢整成一个纯粹的资源分享网站吧！
+
+然后反反复复修修剪剪。
 
 ### 反馈
 如果发现本站有什么不合适的内容，比方说违反什么什么法规啥的，或者是泄露了关于我个人的一些隐私信息，亦或者有什么对于本站我可以做到的好的建议，欢迎[反馈](https://flowus.cn/form/e8167efc-bbec-4a20-88c8-653573e5139e)。
