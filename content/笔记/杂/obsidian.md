@@ -6,6 +6,7 @@ obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插
 
 [[obsidian插件]]
 [[Virtual Linker双链辅助插件]]
+[[tars：obsidian支持国产模型对话]]
 [[obsidian自动对标题进行编号]]
 [[obsidian消除页面左右两边的空白边栏]]
 ### 电脑版下载
