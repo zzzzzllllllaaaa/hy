@@ -2,6 +2,7 @@
 dg-publish: true
 ---
 [[excel批量替换]]
+[[自动配整箱]]
 
 [视频介绍](https://h5.pipix.com/s/iLckVuDH/)
 
