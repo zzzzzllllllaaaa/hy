@@ -56,12 +56,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
-    Component.Backlinks(),   
+    
     
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),   
     Component.RecentNotes({ 
       title: "最近的笔记",  // 更改标题
       limit: 3,            // 限制最近笔记数量
