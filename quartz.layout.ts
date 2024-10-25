@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg";
 import * as Component from "./quartz/components";
 import Footer from "./quartz/components/Footer";
+import RecentNotes from "./quartz/components/RecentNotes"; // 导入最近笔记组件
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -61,6 +62,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes({ 
+      title: "最近的笔记",  // 更改标题
+      limit: 5,            // 限制最近笔记数量
   ],
 }
 
