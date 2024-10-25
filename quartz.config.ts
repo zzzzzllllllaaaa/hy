@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     locale: "zh-CN",
     baseUrl: "zhzhzh.fun",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
