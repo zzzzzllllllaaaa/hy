@@ -58,7 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
     Component.RecentNotes({ 
       title: "最近的笔记",  // 更改标题
-      limit: 5,            // 限制最近笔记数量
+      limit: 3,            // 限制最近笔记数量
           }),
   ],
   right: [
