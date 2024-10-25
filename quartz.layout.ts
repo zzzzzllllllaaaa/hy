@@ -1,7 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg";
 import * as Component from "./quartz/components";
 import Footer from "./quartz/components/Footer";
-import RecentNotes from "./quartz/components/RecentNotes"; // 导入最近笔记组件
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
