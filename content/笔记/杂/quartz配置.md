@@ -2,6 +2,8 @@
 
 [Configuration (jzhao.xyz)](https://quartz.jzhao.xyz/configuration),在官方网站看看，我这里写一些我用到的。
 
+- 网站图标在quartz-static-icon.png替换。
+- 底部原项目链接在quartz-components-footer.tsx修改。
 ### quartz.config.ts
 - 网站标题标题修改  `pageTitle: "3zh2"`
 - 默认网站语言改`locale: "zh-CN"`，最开始是默认英文，改zh-CN就是默认中文
