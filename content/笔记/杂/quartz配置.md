@@ -12,8 +12,10 @@
 ````
 - 启用显示创建修改文章日期，同上做法(默认就有，不需要添加)。
 ````
-Plugin.CreatedModifiedDate({ priority: ["frontmatter" ,"git", "filesystem"] }),//添加创建修改日期插件
+Plugin.CreatedModifiedDate({ priority: ["git", "frontmatter", "filesystem"] }),//添加创建修改日期插件
 `````
+
+注意：日期效果还需要修改 defaultDateType为 modified。
 ### quartz.layout.ts
 - 页脚大概是这个样子，可以按照格式继续往下加
 ```
@@ -25,3 +27,4 @@ Plugin.CreatedModifiedDate({ priority: ["frontmatter" ,"git", "filesystem"] }),/
 
     },
 ````
+- [[添加最近笔记布局]]
