@@ -10,6 +10,9 @@
 7. 点击“全部替换”按钮。
 
 ## 多值替换
+<img src="https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/gif/record%20(3).gif?sign=fVsKfcM155NOxKM2NnmyheIqicmiAiXVEZkEyW0zEsQ=:0" alt="Image" style="max-width: 100%; height: auto;">
+
+
 这个宏将允许你选择一个要替换的区域，然后选择一个包含替换规则的区域（两列：一列为要替换的值，另一列为替换后的值）。
 
 
