@@ -6,6 +6,7 @@ title: 3zh2
 这是一个数字花园啊！！！！
 
 [[站长介绍]]
+
 ### 网站快捷导航
 
 - [[3zh2常用]]
@@ -13,6 +14,17 @@ title: 3zh2
 - [[3zh2随记]]
 - [[小商品推荐]]
 - [[友链]]
+
+### 乐目
+
+
+<div style="position: relative; padding-bottom: 56.25%; /* 16:9 ratio */ height: 0; overflow: hidden;">
+    <iframe src="http://api.yujn.cn/api/zzxjj.php?type=video" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0" 
+            allowfullscreen>
+    </iframe>
+</div>
 
 
 
