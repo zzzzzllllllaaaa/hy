@@ -1,4 +1,4 @@
-[[rss]]
+[[rss]]，[[RSShub]]
 
 [rsshub](https://docs.rsshub.app/)
 [教程](https://b23.tv/N4gvzXL)

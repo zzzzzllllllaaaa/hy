@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #api-response {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>API 请求示例</h1>
+    <button id="fetch-button">获取内容</button>
+    <div id="api-response">内容将在这里显示...</div>
+
+    <script>
+        document.getElementById('fetch-button').addEventListener('click', function() {
+            fetch('http://api.yujn.cn/api/ymdh.php?')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('网络响应不是 ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('api-response').textContent = data;
+                })
+                .catch(error => {
+                    console.error('获取数据时出错:', error);
+                    document.getElementById('api-response').textContent = '获取数据时出错: ' + error.message;
+                });
+        });
+    </script>
+</body>
+</html>
