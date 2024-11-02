@@ -1,0 +1,29 @@
+[[rss]]
+
+一个收藏点评rss阅读器的页面，帮你快速找到合适自己的阅读器。
+
+
+
+[Inoreader - 全部文章 (innoreader.com)](https://www.innoreader.com/welcome)
+
+https://www.qireader.com.cn/
+### 页面阅读器
+[蚁阅](https://rss.anyant.com/)，特点是简洁。
+[RSS·Cafe — 建造自由内容生态](https://rss.cafe/)
+### 安卓阅读器
+[[知微]]，还是很ok的，比较完美，更新频率设置，自定义规则，理论上可以打造一个自己的个性化今日热榜、推库，当然肯定没有他们那么好。
+[[focus]]，各方面都很完美，简洁快速。不过在自动更新上有点问题，暂时用来储存测试搞的rss源。
+[[材质阅读]]，简洁速度快但功能待完善。
+[[Ego Reader]]
+
+
+
+### windows端
+
+**fluent reader**，开源软件，全平台。
+
+**irreader**，自定义功能强大，不像rss阅读，像网站聚合。
+#### 插件
+[[rss阅读器插件]]，可以直接打开网页，包括b站。
+**[[Feedbro]]**，不错，bilibili不可以直接输出视频。
+
