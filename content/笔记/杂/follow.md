@@ -1,6 +1,7 @@
 [[rss阅读器]]
 
 [地址](https://app.follow.is/)，我花了4块钱买邀请码（没邀请码订阅量受限），github登录的。我决定了以后的rss阅读器就选它了！
+[开始食用 | RSSHub](https://docs.rsshub.app/zh/guide/)
 
 优点：
 - 订阅源非常丰富，可以搜索关键词来获取订阅源。
