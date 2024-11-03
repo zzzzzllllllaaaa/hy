@@ -5,11 +5,15 @@
 obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插件市场比同类软件丰富多了，基础双链功能也很好用。
 
 [[obsidian插件]]
+### 常用
 [[Obsidian Web Clipper官方浏览器剪藏插件]]
 [[Virtual Linker双链辅助插件]]
 [[tars：obsidian支持国产模型对话]]
 [[obsidian自动对标题进行编号]]
 [[obsidian消除页面左右两边的空白边栏]]
+
+双屏可以固定一个页面关联一个页面，这样相当于开了个可以放大的小窗。
+## 下载
 ### 电脑版下载
 [各个历史obsidian版本](https://thoughts.teambition.com/share/62a131711a6baa00416a79d3#title=Obsidian_安装包)，都可以使用（Windows7只能使用到1.1.16版本，后面版本不支持）。
 
