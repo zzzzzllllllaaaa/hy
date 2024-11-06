@@ -51,8 +51,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
   const base = cfg.baseUrl ?? ""
 
-  const feedId = "76812250894336000";  // 替换为你的 feedId
-  const userId = "74741113805903872";  // 替换为你的 userId
+
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => {
     const title = escapeHTML(content.title);
@@ -65,10 +64,6 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
         <guid>${link}</guid>
         <description>${description}</description>
         <pubDate>${pubDate}</pubDate>
-        <follow_challenge>
-            <feedId>${feedId}</feedId>
-            <userId>${userId}</userId>
-        </follow_challenge>
     </item>`;
 };
 
