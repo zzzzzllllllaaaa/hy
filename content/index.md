@@ -1,5 +1,6 @@
 ---
 title: 3zh2-一个瞎分享的博客
+feedId: 76812250894336000+userId:74741113805903872
 ---
 [[数字花园]]
 
@@ -20,4 +21,3 @@ title: 3zh2-一个瞎分享的博客
 如果发现本站有什么不合适的内容，比方说违反什么什么法规啥的，或者是泄露了关于我个人的一些隐私信息，亦或者有什么对于本站我可以做到的好的建议，欢迎[反馈](https://flowus.cn/form/e8167efc-bbec-4a20-88c8-653573e5139e)。
 
 
-This message is used to verify that this feed (feedId:76812250894336000) belongs to me (userId:74741113805903872). Join me in enjoying the next generation information browser https://follow.is.
