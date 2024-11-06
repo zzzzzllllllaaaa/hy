@@ -51,11 +51,14 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
   const base = cfg.baseUrl ?? ""
 
+  const feedId = "76812250894336000";  // 替换为你的 feedId
+  const userId = "74741113805903872";  // 替换为你的 userId
+
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
     <title>${escapeHTML(content.title)}</title>
     <link>https://${joinSegments(base, encodeURI(slug))}</link>
     <guid>https://${joinSegments(base, encodeURI(slug))}</guid>
-    <description>${content.richContent ?? content.description}</description>
+    <description>${(content.richContent ?? content.description) + ` feedId:${feedId} userId:${userId}`}</description>
     <pubDate>${content.date?.toUTCString()}</pubDate>
   </item>`
 
