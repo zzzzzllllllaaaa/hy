@@ -12,3 +12,7 @@
 
 奇怪：
 - chrome添加订阅的页面经常出错,但是用edge是没有问题的。
+
+
+认证订阅：
+This message is used to verify that this feed (feedId:76812250894336000) belongs to me (userId:74741113805903872). Join me in enjoying the next generation information browser https://follow.is.
