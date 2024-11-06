@@ -9,4 +9,4 @@
 API地址：[http://console.x.ai](http://console.x.ai/)  
 博客：[xAI API General Access](https://x.ai/blog/api)
 
-[[我的密钥]],我都不知道咋用的.....
+[[我的密钥]]
