@@ -2,6 +2,7 @@
 
 ### ai对话
 [Chat with Open Large Language Models (lmsys.org)](https://arena.lmsys.org/),一个ai测试页面，可以免费使用各种ai语言模型，不需要登录。
+[oaichat](https://chat3.oaichat.cc/),免费的GPT-3.5和gemini
 [Kimi.ai - 长文阅读，不适合看小说](https://kimi.moonshot.cn/)，20万字数极限。
 [腾讯元宝](https://yuanbao.tencent.com/chat/naQivTmsDa)
 
