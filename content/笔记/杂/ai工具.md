@@ -23,3 +23,7 @@
 [里布ai](https://www.liblib.ai)，完美！[[里布]]
 [吐司](https://tusiart.com/)，漂亮！要梯子。[[吐司]]
 [[ai作画]]
+
+### 应用层
+[[FacePoke转脑袋]]
+[Tattoo Removal Before and After - See Real Results](https://tattooremovalbeforeandafter.online/zh)，图片去除纹身。
