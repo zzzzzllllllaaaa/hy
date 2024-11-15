@@ -31,7 +31,7 @@ title: 3zh2-一个瞎分享的博客
   data-theme-color="#1fe1f9" 
   data-close-width="24" 
   data-close-height="24" 
-  data-open-width="150" 
+  data-open-width="250" 
   data-open-height="300" 
   data-welcome="你可以在这里留言" 
   src="https://40d8d30d.r22.cpolar.top/widget.js" 
