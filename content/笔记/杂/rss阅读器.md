@@ -2,11 +2,7 @@
 
 一个收藏点评rss阅读器的页面，帮你快速找到合适自己的阅读器。
 
-
-
-[Inoreader - 全部文章 (innoreader.com)](https://www.innoreader.com/welcome)
-
-https://www.qireader.com.cn/
+[[follow]]
 ### 页面阅读器
 [蚁阅](https://rss.anyant.com/)，特点是简洁。
 [RSS·Cafe — 建造自由内容生态](https://rss.cafe/)
