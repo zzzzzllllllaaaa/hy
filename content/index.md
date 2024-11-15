@@ -20,19 +20,22 @@ title: 3zh2-一个瞎分享的博客
 如果发现本站有什么不合适的内容，比方说违反什么什么法规啥的，或者是泄露了关于我个人的一些隐私信息，亦或者有什么对于本站我可以做到的好的建议，欢迎[反馈](https://flowus.cn/form/e8167efc-bbec-4a20-88c8-653573e5139e)。
 
 
+测试
+```html
 <!-- 将以下代码放置于你的网页中 -->
 <script 
   data-host-id="1" 
   data-auto-reg="true" 
   data-login-token="" 
-  data-title="VoceChat" 
-  data-logo="https://your-logo-url.com/logo.png" 
+  data-title="" 
+  data-logo="" 
   data-theme-color="#1fe1f9" 
-  data-close-width="48" 
-  data-close-height="48" 
-  data-open-width="380" 
-  data-open-height="680" 
-  data-welcome="你好，很高兴认识你！" 
+  data-close-width="24" 
+  data-close-height="24" 
+  data-open-width="150" 
+  data-open-height="300" 
+  data-welcome="Your custom welcome text" 
   src="https://40d8d30d.r22.cpolar.top/widget.js" 
   async 
 ></script>
+```
