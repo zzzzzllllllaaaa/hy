@@ -5,13 +5,10 @@ title: 3zh2-一个瞎分享的博客
 
 这是一个数字花园啊！！！！
 
-### 网站快捷导航
 
-- [[3zh2常用]]
-- [[3zh2导航]]
-- [[3zh2随记]]
-- [[小商品推荐]]
-- [[友链]]
+[[3zh2常用]]
+[[3zh2导航]]
+
 
 [本站资源文件夹](https://zhwly1799.cn3.quickconnect.cn/d/s/10unmrqEBojT1GRGa2xbDKkbfKMGlmB9/0c0TszccUOPUGpRKKSzCRlGKMMvuwgTI-Pb4A9NN21As)
 ### 反馈
