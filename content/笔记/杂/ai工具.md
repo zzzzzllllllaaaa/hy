@@ -8,13 +8,13 @@
 [duckduckgoai](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)，免登录直接用，可用gpt4mini。24.11.16
 [oaichat](https://chat3.oaichat.cc/),免费的GPT-3.5和gemini
 
-[西湖大模型](https://xinchenai.com/chat)，需要申请。
+
+[[百度文档自由画布]],需申请。
 ### 智能体
 [[智谱清言]]
 [[豆包]]
 [[glow]]
 [腾讯元器](https://yuanqi.tencent.com/agent-shop)
-[[X eva]]
 
 ### ai社区
 [[huggingface]]
@@ -29,3 +29,8 @@
 ### 应用层
 [[FacePoke转脑袋]]
 [Tattoo Removal Before and After - See Real Results](https://tattooremovalbeforeandafter.online/zh)，图片去除纹身。
+
+
+### 杂
+[西湖大模型](https://xinchenai.com/chat)，需要申请，我都提交好久了，没过，丢去吃灰。
+[[X eva]]
