@@ -5,7 +5,7 @@ title: 3zh2-一个瞎分享的博客
 
 我搭建了这个网站，修修补补，陆陆续续发了点东西，但是实际上并没有什么明确的定位，你可以把它当成一个[[3zh2导航|导航]]，也可以在这上面找到一点点[[3zh2常用|杂七杂八的教程]]，又可以找到一点点[乱七八糟的资源](https://a3zh2.cn3.quickconnect.cn/d/s/10unmrqEBojT1GRGa2xbDKkbfKMGlmB9/0c0TszccUOPUGpRKKSzCRlGKMMvuwgTI-Pb4A9NN21As#/files)，还能看见我[[2024|每天写的简短想法]]，还是一天一个想法的那种。
 
-其实我有的时候想分享图片来着，把它搞成一个图片站，每天分享一点赏心悦目的美女图片来着，嘿嘿嘿，可是我根本没有那种每天去收藏美图的习惯，也不喜欢单纯用爬虫，感觉很没意思。网站seo我又搞不懂，谷歌收录我网站有一堆问题，我都不知道咋修，百度收录要我实名，一直没去弄，就必应收录了我这个网站，但是呢，(⊙﹏⊙)，基本搜不到就是了。所以，我其实是在写单机。
+<img src="https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/%E5%9B%BE%E7%89%87/%E8%B4%B4%E5%9B%BE%E9%A3%8E%E6%A0%BC/37dad6c19a8813d0072cddd67c07a318f2f26bd3fba282309a0629f9f2449ed7.png?sign=5CPHrpptVFmumOup4zOm5PU-BNAqpCGijakFS4Q7KC4=:0" alt="Image" style="max-width: 100%; height: auto;">
 
 嗯~ o(*￣▽￣*)o那么我们可以简单把这个网站当成一个一个人胡说八道的大杂烩吧！
 
