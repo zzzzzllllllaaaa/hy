@@ -10,3 +10,5 @@ API地址：[http://console.x.ai](http://console.x.ai/)
 博客：[xAI API General Access](https://x.ai/blog/api)
 
 [[我的密钥]]
+
+ps:马斯克已经屏蔽了中国ip访问，/(ㄒoㄒ)/~~
