@@ -30,3 +30,4 @@ Plugin.CreatedModifiedDate({ priority: ["git", "frontmatter", "filesystem"] }),/
     },
 ````
 - [[添加最近笔记布局]]
+- [[添加评论功能]]
