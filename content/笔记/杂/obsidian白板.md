@@ -4,7 +4,7 @@ obsidian的核心插件，不需要下载。无限大的白板，可以为所欲
 
 [[Simple CanvaSearch白板搜索]]
 [[Optimize Canvas Connections连接优化]]
-[放大白板节点到内容最后一行](http://a3zh2.quickconnect.cn/d/s/11BH7sMnABCZrVOIpKqLOkIIJ3LFWKTp/zQWzOyoHMyxnqV_B7pSVJqeqt0pIdcgv-RLPA63mh3gs)，在设置-外观-css片段，上传刷新启动使用。在pkmer交流群拿的，好用。
+[放大白板节点到内容最后一行](http://a3zh2.quickconnect.cn/d/s/11BHpPeqC0qACdmpdbWFHUAaHuSWTh2s/Qskle5t6k_7sz39PBcBYOkr7Ioew-cc7-cbPg0Lmj3gs)，在设置-外观-css片段，上传刷新启动使用。在pkmer交流群拿的，好用，稍微修改了下，让它上下滑动。
 
 
 手机编辑模式下点击就会自动创建卡片。
