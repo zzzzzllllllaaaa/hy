@@ -6,6 +6,7 @@ obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插
 
 [[minimal主题]]
 [[obsidian插件]]
+[[obsidian模板]]
 ### 常用
 [[Obsidian Web Clipper官方浏览器剪藏插件]]
 [[Virtual Linker双链辅助插件]]
