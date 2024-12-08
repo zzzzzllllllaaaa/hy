@@ -30,7 +30,3 @@
 [[FacePoke转脑袋]]
 [Tattoo Removal Before and After - See Real Results](https://tattooremovalbeforeandafter.online/zh)，图片去除纹身。
 
-
-### 杂
-[西湖大模型](https://xinchenai.com/chat)，需要申请，我都提交好久了，没过，丢去吃灰。
-[[X eva]]
