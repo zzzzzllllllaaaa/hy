@@ -10,6 +10,7 @@ obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插
 ### 常用
 [[Obsidian Web Clipper官方浏览器剪藏插件]]
 [[Virtual Linker双链辅助插件]]
+[[Cards View以卡片视图显示笔记]]
 [[tars：obsidian支持国产模型对话]]
 [[obsidian自动对标题进行编号]]
 [[obsidian消除页面左右两边的空白边栏]]
