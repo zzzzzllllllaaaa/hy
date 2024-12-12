@@ -1,4 +1,4 @@
-[[obsidian插件]]
+
 
 [项目地址](https://github.com/wwaa321/obsidian-note-collector/tree/main)
 

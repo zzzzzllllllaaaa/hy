@@ -1,4 +1,3 @@
-[[双链笔记]]
 
 [官网](https://obsidian.md/)
 

@@ -1,4 +1,4 @@
-[[obsidian插件]]
+
 
 [插件包](https://c.zhzhzh.fun/d/123%E4%BA%91%E7%9B%98/%E5%B0%8F%E7%8E%A9%E6%84%8F/obsidian-open-link-with.zip?sign=WGfO3bcDd2JQ23UoIpTOwux9TUsRoh8yIWnaYsZJpVI=:0),可以直接下载
 [项目地址](https://github.com/zzzzzllllllaaaa/Open-Telegram-Plugin)，我也放在github上面了，里面有个压缩包同上。

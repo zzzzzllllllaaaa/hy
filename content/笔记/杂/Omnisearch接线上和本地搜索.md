@@ -1,4 +1,4 @@
-[[obsidian插件]]
+
 
 而Omnisearch 插件可以在你进行网络搜索的同时，同步搜索 Obsidian 中的笔记内容。
 

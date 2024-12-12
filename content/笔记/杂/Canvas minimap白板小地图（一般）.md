@@ -1,4 +1,3 @@
-[[obsidian插件]]
 
 为Obsidian的Canvas功能提供小地图。
 

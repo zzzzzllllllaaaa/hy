@@ -1,4 +1,3 @@
-[[obsidian插件]]
 
 [来源](https://forum-zh.obsidian.md/t/topic/36816/13)
 

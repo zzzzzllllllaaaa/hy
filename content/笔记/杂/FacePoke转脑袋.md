@@ -1,3 +1,8 @@
+---
+tags:
+  - ai
+  - 日志
+---
 [[ai工具]]
 
 [FacePoke](https://huggingface.co/spaces/jbilcke-hf/FacePoke)，好玩，只需要一张带头的照片，鼠标点哪，脑袋转哪，眼睛还会跟着看过去。并且可以滑动改变五官和嘴型。(电脑打开，可以放大缩小页面看照片整体效果)
