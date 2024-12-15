@@ -5,16 +5,12 @@ obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插
 
 [[minimal主题]]
 [[obsidian插件]]
+[[外观css文件]]
 [[obsidian模板库]]
-### 常用
-[[Obsidian Web Clipper官方浏览器剪藏插件]]
-[[Virtual Linker双链辅助插件]]
-[[Cards View以卡片视图显示笔记]]
-[[tars：obsidian支持国产模型对话]]
-[[obsidian自动对标题进行编号]]
-[[obsidian消除页面左右两边的空白边栏]]
+[[obsidian多端同步]]
+[[obsidian发布方案]]
 
-双屏可以固定一个页面关联一个页面，这样相当于开了个可以放大的小窗。
+[[obsidian白板]]
 ## 下载
 ### 电脑版下载
 [各个历史obsidian版本](https://thoughts.teambition.com/share/62a131711a6baa00416a79d3#title=Obsidian_安装包)，都可以使用（Windows7只能使用到1.1.16版本，后面版本不支持）。
@@ -36,5 +32,7 @@ obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插
 
 不备份了，直接在别人链接里面找最新版吧！
 
+### 其它
+[[obsidian安卓保活]]
 
 

@@ -28,8 +28,6 @@
 [[Cards View以卡片视图显示笔记]]
 [[Canvas minimap白板小地图（一般）]]
 [[Daily Note Navbar日记导航]]
-[[obsidian-livesync同步插件]]
-[[Remotely Save多端同步插件]]
 [[Note Collector笔记片段收集]]
 [[Various Complements 自动补全快捷输入工具]]
 [[Collapse Node折叠节点（无用）]]
@@ -42,3 +40,7 @@
 [[Obsidian42 - Strange New Worlds显示引用]]
 [[Tags Overview标签面板]]
 [[notetomp将笔记发布到公众号草稿]]，付费。
+
+#### 同步插件
+[[obsidian-livesync同步插件]]
+[[Remotely Save多端同步插件]]
