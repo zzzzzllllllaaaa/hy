@@ -3,7 +3,7 @@ dg-publish: true
 ---
 [[向上管理]]，[[游戏]]
 
-[kiomet](https://kiomet.com/)
+[kiomet](https://kiomet.com/)，有墙。
 
 实时战略游戏，很上头。攻城略地很上头！
 
