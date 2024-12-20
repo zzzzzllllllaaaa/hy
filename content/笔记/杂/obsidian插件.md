@@ -40,6 +40,7 @@
 [[Obsidian42 - Strange New Worlds显示引用]]
 [[Tags Overview标签面板]]
 [[notetomp将笔记发布到公众号草稿]]，付费。
+[[Lazy Plugin Loader提高软件启动速度]]
 
 #### 同步插件
 [[obsidian-livesync同步插件]]
