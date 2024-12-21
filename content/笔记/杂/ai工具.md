@@ -6,7 +6,6 @@
 
 [Chat with Open Large Language Models (lmsys.org)](https://arena.lmsys.org/),一个ai测试页面，可以免费使用各种ai语言模型，不需要登录。
 [duckduckgoai](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)，免登录直接用，可用gpt4mini。24.11.16
-[oaichat](https://chat3.oaichat.cc/),免费的GPT-3.5和gemini
 
 
 ### 智能体
