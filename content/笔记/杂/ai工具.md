@@ -9,7 +9,6 @@
 [oaichat](https://chat3.oaichat.cc/),免费的GPT-3.5和gemini
 
 
-[[百度文档自由画布]],需申请。
 ### 智能体
 [[智谱清言]]
 [[豆包]]

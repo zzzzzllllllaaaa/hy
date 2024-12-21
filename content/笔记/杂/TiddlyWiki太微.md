@@ -5,6 +5,7 @@
 
 感觉确实挺不错的，主要是布局比较喜欢，想把obsidian的笔记转化过去。放弃了，放了部分笔记进去，打开速度变得超级慢（[[删减功能来加速太微]]），可能是我内网穿透的流量限制吧！反正用的不舒服。
 
+拿来主义，直接拿[[仿tiddlywiki故事河布局]]到obsidian用。
 ### 群晖docker部署
 [群晖部署太微教程](https://laosu.tech/2022/02/21/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0%E6%9C%ACTiddlyWiki/)，照着做，能成。（有一个值空缺就直接删除，不影响）
 群晖注册表被墙就用指令拉取。[指令拉取教程](https://www.jindouyun.cn/document/industry/details/240580)
