@@ -11,12 +11,12 @@
 [[Obsidian Web Clipper官方浏览器剪藏插件]]
 [[Open Gate建立网站图标]]
 [[Copy button for code blocks代码复制]]
-[[链接类型识别器]]
+[[Background Image背景图插件]]
 
 ### 自制插件
 [[自动生成笔记标签插件]]
 [[从标签打开随机笔记插件]]
-
+[[链接类型识别器]]
 ### 更多
 
 [[Omnisearch接线上和本地搜索]]
