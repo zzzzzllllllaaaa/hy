@@ -1,4 +1,4 @@
-[[7 Billion Humans（70亿人）]]，[[快捷键]]，[[模板]]，[[快捷方式]]
+#快捷键 
 
 [Quicker软件 您的指尖工具箱 - Quicker (getquicker.net)](https://getquicker.net/)
 
