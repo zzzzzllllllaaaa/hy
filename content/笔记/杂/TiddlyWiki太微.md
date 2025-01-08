@@ -1,8 +1,7 @@
 ---
 tags: []
 ---
-
-#双链笔记 #笔记 #帅哥
+[双链笔记](双链笔记.md)
 
 [介绍](https://pkmer.cn/Pkmer-Docs/12-tiddywiki/tiddywiki//#%E4%BA%8C%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85)
 [下载](https://github.com/tiddly-gittly/TidGi-Desktop/releases)

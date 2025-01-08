@@ -3,7 +3,7 @@
 
 obsidian是我心目中最好的双链笔记，无他，就他强大活跃的插件市场比同类软件丰富多了，基础双链功能也很好用。
 
-[[obsidian插件1]]
+[obsidian插件](obsidian插件.md)
 [[外观css文件]]
 [[obsidian模板库]]
 [[obsidian多端同步]]

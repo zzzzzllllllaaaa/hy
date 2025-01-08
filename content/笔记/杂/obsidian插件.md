@@ -4,21 +4,23 @@
 [[提交官方插件市场教程]]
 ### 常用
 
+[自动上传图床插件 Image auto upload](自动上传图床插件%20Image%20auto%20upload.md)
 [[Virtual Linker双链辅助插件]]
+Automatic Renumbering，自动为有序列表重新编号。
+[[Copy button for code blocks代码复制]]
 [[tars：obsidian支持国产模型对话]]
 [[Simple CanvaSearch白板搜索]]
 [[Optimize Canvas Connections连接优化]]
 [[dataview基础(生成目录)]]
 [[Obsidian Web Clipper官方浏览器剪藏插件]]
 [[Open Gate建立网站图标]]
-[[Copy button for code blocks代码复制]]
 [[Background Image背景图插件]]
 
 ### 自制插件
 [[创建子条目插件]]
 [[自动生成笔记标签插件]]
 [[从标签打开随机笔记插件]]
-[[链接类型识别器]]
+[[链接类型识别器（淘汰）]]
 ### 更多
 
 [[Omnisearch接线上和本地搜索]]
