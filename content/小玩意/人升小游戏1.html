@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机圆点点击游戏</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            position: relative;
+            background-color: #f0f0f0;
+        }
+        .dot {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #ff6b6b;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 获取屏幕宽高
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+
+        // 随机范围内生成数字
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // 生成随机圆点
+        function spawnDot() {
+            // 创建圆点元素
+            const dot = document.createElement("div");
+            dot.classList.add("dot");
+
+            // 随机位置
+            const x = getRandom(0, screenWidth - 50); // 减去圆点直径
+            const y = getRandom(0, screenHeight - 50);
+
+            // 设置位置
+            dot.style.left = `${x}px`;
+            dot.style.top = `${y}px`;
+
+            // 添加到页面
+            document.body.appendChild(dot);
+
+            // 点击事件
+            dot.addEventListener("click", () => {
+                // 生成随机金币奖励
+                const reward = getRandom(3, 10);
+
+                // 调用奖励 API
+                const rewardUrl = `lifeup://api/reward?type=coin&content=点击奖励&number=${reward}`;
+                window.location.href = rewardUrl;
+
+                // 调用弹出消息 API
+                const toastUrl = `lifeup://api/toast?text=获得${reward}金币&type=1`;
+                window.location.href = toastUrl;
+
+                // 移除圆点
+                dot.remove();
+            });
+
+            // 自动移除圆点 3 秒后消失
+            setTimeout(() => {
+                dot.remove();
+            }, 3000);
+        }
+
+        // 每隔 3 秒生成一个圆点
+        setInterval(spawnDot, 3000);
+    </script>
+</body>
+</html>
