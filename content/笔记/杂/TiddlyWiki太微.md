@@ -7,7 +7,7 @@ tags: []
 [下载](https://github.com/tiddly-gittly/TidGi-Desktop/releases)
 [太微中文教程](https://tw-cn.netlify.app/#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%A4%AA%E5%BE%AE%EF%BC%81:%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%A4%AA%E5%BE%AE%EF%BC%81)
 
-感觉确实挺不错的，主要是布局比较喜欢，想把obsidian的笔记转化过去。放弃了，放了部分笔记进去，打开速度变得超级慢（[[删减功能来加速太微]]），可能是我内网穿透的流量限制吧！反正用的不舒服。
+感觉确实挺不错的，主要是布局比较喜欢，想把obsidian的笔记转化过去。放弃了，放了部分笔记进去，打开速度变得超级慢（[[删减功能来加速太微]],只能缓解部分），笔记越多速度越慢，这点不解决，不敢用下去。。
 
 拿来主义，直接拿[[仿tiddlywiki故事河布局]]到obsidian用。
 ### 群晖docker部署
@@ -19,10 +19,11 @@ tags: []
 
 ### 常用插件
 设置中文：zh-hans
-md语法支持：markdown（但是太微的md不支持双链）
-自动补全插件：codemirror6
 内链自动更新： **Relink 系列 (Relink, Relink Markdown, Relink Titles, Relink Field Names)**:专注于重命名功能，确保标题、字段和链接之间的一致性，避免断链问题，全部一次性下载搞定。
 [[悬浮工具栏]]
+
+md语法支持：markdown（但是太微的md不支持双链）
+自动补全插件：codemirror6
 增强编辑：Custom Markup（其中包括撤回和重做）
 自动化目录：Page TOC，搭配 ToC generic，将扩展的目录添加到条目的底部。
 
