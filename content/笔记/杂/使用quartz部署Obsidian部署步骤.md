@@ -1,9 +1,7 @@
 [[数字花园]]
 
 
-```
-npx quartz sync
-````
+已经部署过，重新换电脑发布就不需要这些过程了，直接[sublime merge一款git可视化工具](sublime%20merge一款git可视化工具.md)把仓库克隆搞到本地就可以了。
 ### 部署教程
 [项目地址](https://github.com/jackyzha0/quartz)
 [项目说明文档](https://quartz.jzhao.xyz/)，里面有部署教程，比较丰富。
