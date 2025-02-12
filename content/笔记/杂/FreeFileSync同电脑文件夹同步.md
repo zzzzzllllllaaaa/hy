@@ -1,5 +1,6 @@
 
 [下载](http://zhwly1799.quickconnect.cn/d/s/10yBmQsRZKEtdxCmHYWOHJwNCNhApIPH/ycwsngIOI0Z7Po8zZnsBe_E1Wkvf1YDe-R7HAE9h61As)
+[下载链接2](https://freefilesync.org/download.php)
 [教程](https://www.oldcai.com/archives/572/)
 ### 简化教程
 
